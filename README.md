@@ -13,4 +13,4 @@ The script will then call this function to create tables for the training and te
 
 Finally, it reshapes the table so each row represents a unique subject and activity pair. The first two columns identify the subject and activity and the rest will be the mean of all the the instances of the specific measurement for that pair. It will the write this table to a file named output.txt.
 
-While this is a wide dataset, I figured that this set up would allow very east use of the data in the following analysis. The codebook.txt file explains what all the column values refer to.
+While this is a wide dataset, I figured that this set up would allow very easy use of the data in the following analysis and thus would be considered tidy. The codebook.txt file explains what all the column values refer to.
