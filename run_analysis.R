@@ -43,11 +43,11 @@ reader <- function(xfile,yfile,sfile){
 
 #call function on training data
 data.train <- reader("UCI HAR Dataset/train/x_train.txt",
-       "UCI HAR Dataset/train/y_train.txt",
-       "UCI HAR Dataset/train/subject_train.txt")
+                     "UCI HAR Dataset/train/y_train.txt",
+                     "UCI HAR Dataset/train/subject_train.txt")
 
 #call function on test data
-data.test <- reader("UCI HAR Dataset//test/x_test.txt",
+data.test <- reader("UCI HAR Dataset/test/x_test.txt",
                     "UCI HAR Dataset/test/y_test.txt",
                     "UCI HAR Dataset/test/subject_test.txt")
 
